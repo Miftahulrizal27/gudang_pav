@@ -21,11 +21,11 @@
 						<button class="btn btn-danger">RESET</button>
 					</a>-->
 			<?php if(!empty($_GET['cari'])){ ?>
-			Data Laporan Penjualan <?= $bulan_tes[$_POST['bln']];?> <?= $_POST['thn'];?>
+			Data Laporan Barang Keluar <?= $bulan_tes[$_POST['bln']];?> <?= $_POST['thn'];?>
 			<?php }elseif(!empty($_GET['hari'])){?>
-			Data Laporan Penjualan <?= $_POST['hari'];?>
+			Data Laporan Barang Keluar <?= $_POST['hari'];?>
 			<?php }else{?>
-			Data Laporan Penjualan <?= $bulan_tes[date('m')];?> <?= date('Y');?>
+			Data Laporan Barang Keluar <?= $bulan_tes[date('m')];?> <?= date('Y');?>
 			<?php }?>
 		</h4>
 		<br />
