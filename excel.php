@@ -43,11 +43,11 @@
     <div class="modal-view">
         <h3 style="text-align:center;"> 
                 <?php if(!empty(htmlentities($_GET['cari']))){ ?>
-                    Data Laporan Penjualan <?= $bulan_tes[htmlentities($_GET['bln'])];?> <?= htmlentities($_GET['thn']);?>
+                    Data Laporan Barang Keluar<?= $bulan_tes[htmlentities($_GET['bln'])];?> <?= htmlentities($_GET['thn']);?>
                 <?php }elseif(!empty(htmlentities($_GET['hari']))){?>
-                    Data Laporan Penjualan <?= htmlentities($_GET['tgl']);?>
+                    Data Laporan Barang Keluar<?= htmlentities($_GET['tgl']);?>
                 <?php }else{?>
-                    Data Laporan Penjualan <?= $bulan_tes[date('m')];?> <?= date('Y');?>
+                    Data Laporan Barang Keluar<?= $bulan_tes[date('m')];?> <?= date('Y');?>
                 <?php }?>
         </h3>
         <table border="1" width="100%" cellpadding="3" cellspacing="4">
@@ -57,6 +57,10 @@
                     <th> ID Barang</th>
                     <th> Regional</th>
                     <th> Cabang</th>
+                    <th> PIC</th> 
+                    <th> Alamat Email</th>
+                    <th> departement</th>
+                    <th> Kegiatan/Event</th>
                     <th>PaperBag<br>Kecil</th>
                     <th>PaperBag<br>Sedang</th>
                     <th>PaperBag<br>Besar</th>
@@ -104,7 +108,20 @@
                 <tr>
                     <td><?php echo $no;?></td>
                     <td><?php echo $isi['id_barang'];?></td>
-                    <td><?php echo $isi['nama_barang'];?></td>
+                    <td><?php echo $isi['nama_regional'];?></td>
+                    <td><?php echo $isi['nama_cabang'];?></td>
+                    <td><?php echo $isi['PIC'];?></td>
+                    <td><?php echo $isi['email'];?></td>
+                    <td><?php echo $isi['dept'];?></td>
+                    <td><?php echo $isi['kegiatan'];?></td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
                     <td><?php echo $isi['jumlah'];?> </td>
                     <td>Rp.<?php echo number_format($isi['harga_beli']* $isi['jumlah']);?>,-</td>
                     <td>Rp.<?php echo number_format($isi['total']);?>,-</td>
@@ -115,7 +132,20 @@
                 <tr>
                     <td>-</td>
                     <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
                     <td><b>Total Terjual</b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
                     <td><b><?php echo $jumlah;?></b></td>
                     <td><b>Rp.<?php echo number_format($modal);?>,-</b></td>
                     <td><b>Rp.<?php echo number_format($bayar);?>,-</b></td>

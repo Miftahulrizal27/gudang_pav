@@ -185,6 +185,10 @@
 								<th> ID Barang</th>
 								<th> Regional</th>
 								<th> cabang</th>
+								<th> PIC</th>
+								<th> Alamat Email</th>
+								<th> Departement</th>
+								<th> Kegiatan/Evenet</th>
 								<th>PaperBag<br>Kecil</th>
 								<th>PaperBag<br>Sedang</th>
 								<th>PaperBag<br>Besar</th>
@@ -252,7 +256,7 @@
 						</tbody>
 						<tfoot>
 							<tr>
-								<th colspan="4">Total Terjual</td>
+								<th colspan="8">Total Barang Keluar</td>
 								<th><?php echo $jumlah;?></td>
 								<th><?php echo $jumlah;?></td>
 								<th><?php echo $jumlah;?></td>
@@ -265,7 +269,6 @@
 								<th><?php echo $jumlah;?></td>
 								<th>Rp.<?php echo number_format($modal);?>,-</th>
 								<th>Rp.<?php echo number_format($bayar);?>,-</th>
-								<th></td>
 								<th style="background:#0bb365;color:#fff;">Keuntungan</th>
 								<th style="background:#0bb365;color:#fff;">
 									Rp.<?php echo number_format($bayar-$modal);?>,-</th>

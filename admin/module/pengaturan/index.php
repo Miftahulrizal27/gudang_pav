@@ -12,31 +12,40 @@
 				<div class="col-md 6">
 					<div class="form-group">
 						<label for="">Nama Perusahaan</label>
-						<input class="form-control" name="" value=" PT. TIKI JALUR NUGRAHA EKAKURIR"
+						<input class="form-control" name="" value=" PT. Tiki Jalur Nugraha Ekakurir (JNE Express)"
 									placeholder="">
 					</div>
 					<div class="form-group">
-						<label for="">ALAMAT</label>
-						<input class="form-control" name="" value=" TOMANG, JAKARTA BARAT, DKJ. JAKARTA, INDONESIA"
+						<label for="">Alamat</label>
+						<input class="form-control" name="" value=" Lantai 3, Jl. Tomang Raya No.11,  Jakarta Barat, Daerah Khusus Jakarta, Indonesia"
 									placeholder="">
 					</div>
 					<div class="form-group">
-						<label for="">DIREKTORAT</label>
-						<input class="form-control" name="" value=" MARKETING "
+						<label for="">Direktorat</label>
+						<input class="form-control" name="" value=" Marketing "
 									placeholder="">
 					</div>
 					<div class="form-group">
-						<label for="">DIVISI</label>
-						<input class="form-control" name="" value=" BRANDING ACTIVATION "
+						<label for="">Divisi</label>
+						<input class="form-control" name="" value=" Branding Activation "
 									placeholder="">
 					</div>
 					<div class="form-group">
-						<label for="">DEPARTEMENT</label>
-						<input class="form-control" name="" value=" PROMOTION AND ACTIVATION "
+						<label for="">Departement</label>
+						<input class="form-control" name="" value=" Promotion and Activation"
 									placeholder="">
 					</div>
 					<div class="form-group">
-						<label for="">MERCHENDISE</label>
+						<input class="form-control" name="" value=" Menchendise"
+									placeholder="">
+					</div>
+					<div class="form-group">
+						<label for="">PIC</label>
+						<input class="form-control" name="" value=" Ibu Atiek"
+									placeholder="">
+						<br>
+						<input class="form-control" name="" value=" Ibu Nova"
+									placeholder="">
 					</div>
 				</div>
 			</div>

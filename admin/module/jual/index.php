@@ -69,6 +69,10 @@
 									<td> No</td>
 									<td> Regional</td>
 									<td> Cabang</td>
+									<td> PIC</td>
+									<td> Alamat Email</td>
+									<td> Departement</td>
+									<td> Kegiatan/Event</td>
 									<td style="width:10%;"> PaperBag<br>Kecil</td>
 									<td style="width:10%;"> PaperBag<br>Sedang</td>
 									<td style="width:10%;"> PaperBag<br>Besar</td>
@@ -90,6 +94,16 @@
 									<td><?php echo $no;?></td>
 									<td><?php echo $isi['nama_regional'];?></td>
 									<td><?php echo $isi['nama_kategori'];?></td>
+									<td><?php echo $isi['pic'];?></td>
+									<td><?php echo $isi['email'];?></td>
+									<td><?php echo $isi['dept'];?></td>
+									<td>
+										<!-- aksi ke table penjualan -->
+										<form method="POST" action="fungsi/edit/edit.php?jual=jual">
+												<input type="text" name="jumlah" class="form-control">
+												<input type="hidden" name="id"  class="form-control">
+												<input type="hidden" name="id_barang" class="form-control">
+											</td>
 									<td>
 										<!-- aksi ke table penjualan -->
 										<form method="POST" action="fungsi/edit/edit.php?jual=jual">
@@ -229,9 +243,9 @@
 									<input type="hidden" name="periode[]" value="<?php echo date('m-Y');?>">
 								<?php $no++; }?>
 								<tr>
-									<!-- <td>Total Semua  </td>
+									<td>Total Semua  </td>
 									<td><input type="text" class="form-control" name="total" value="<?php echo $total_bayar;?>"></td>
-								 -->
+
 									<td>Bayar  </td>
 									<td><input type="text" class="form-control" name="bayar" value="<?php echo $bayar;?>"></td>
 									<td><button class="btn btn-success"><i class="fa fa-shopping-cart"></i> Bayar</button>
