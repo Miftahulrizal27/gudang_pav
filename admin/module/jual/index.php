@@ -27,7 +27,7 @@
 					<h5><i class="fa fa-search"></i> Cari Barang</h5>
 				</div>
 				<div class="card-body">
-					<input type="text" id="cari" class="form-control" name="cari" placeholder="Masukan : Kode / Nama Barang  [ENTER]">
+					<input type="text" id="cari" class="form-control" name="cari" placeholder="Masukan : ID_Cabang / Cabang">
 				</div>
 			</div>
 		</div>
@@ -67,6 +67,7 @@
 							<thead>
 								<tr>
 									<td> No</td>
+									<td> ID Cabang</td>
 									<td> Regional</td>
 									<td> Cabang</td>
 									<td> PIC</td>

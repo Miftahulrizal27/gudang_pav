@@ -430,7 +430,7 @@ if (!empty($_SESSION['admin'])) {
             ?>
 		<table class="table table-stripped" width="100%" id="example2">
 			<tr>
-				<th>ID Barang</th>
+				<th>ID Cabang</th>
 				<th>Nama Regional</th>
                 <th>Nama Cabang</th>
                 <th>PIC</th>
