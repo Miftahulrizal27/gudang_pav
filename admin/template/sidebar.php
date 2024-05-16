@@ -38,7 +38,6 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <!-- <h6 class="collapse-header">Custom Components:</h6> -->
                 <a class="collapse-item" href="index.php?page=barang">Barang</a>
-                <a class="collapse-item" href="index.php?page=detail">Detail Barang</a>
                 <a class="collapse-item" href="index.php?page=regional">Regional</a>
                 <a class="collapse-item" href="index.php?page=kategori">Cabang</a>
                 <!-- <a class="collapse-item" href="index.php?page=user">User</a> -->

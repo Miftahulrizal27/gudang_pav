@@ -49,7 +49,7 @@
 		<div class="col-sm-12">
 			<div class="card card-primary">
 				<div class="card-header bg-primary text-white">
-					<h5><i class="fa fa-shopping-cart"></i> ADMIN
+					<h5><i class="fa fa-shopping-cart"></i> PIC Pusat
 					<a class="btn btn-danger float-right" 
 						onclick="javascript:return confirm('Apakah anda ingin reset keranjang ?');" href="fungsi/hapus/hapus.php?penjualan=jual">
 						<b>RESET KERANJANG</b></a>
@@ -83,7 +83,7 @@
 									<td style="width:10%;"> Agenda Joni</td>
 									<td style="width:10%;"> Tumbler</td>
 									<td style="width:20%;"> Total</td>
-									<td> Admin</td>
+									<td> PIC Pusat</td>
 									<td> Aksi</td>
 								</tr>
 							</thead>
@@ -248,7 +248,7 @@
 
 									<td>Bayar  </td>
 									<td><input type="text" class="form-control" name="bayar" value="<?php echo $bayar;?>"></td>
-									<td><button class="btn btn-success"><i class="fa fa-shopping-cart"></i> Bayar</button>
+									<td><button class="btn btn-success"><i class="fa fa-shopping-cart"></i> Keluarkan</button>
 									<?php  if(!empty($_GET['nota'] == 'yes')) {?>
 										<a class="btn btn-danger" href="fungsi/hapus/hapus.php?penjualan=jual">
 										<b>RESET</b></a></td><?php }?></td>
@@ -263,7 +263,7 @@
 									<a href="print.php?nm_member=<?php echo $_SESSION['admin']['nm_member'];?>
 									&bayar=<?php echo $bayar;?>&kembali=<?php echo $hitung;?>" target="_blank">
 									<button class="btn btn-secondary">
-										<i class="fa fa-print"></i> Print Untuk Bukti Pembayaran
+										<i class="fa fa-print"></i> Print Untuk Bukti Keluar
 									</button></a>
 								</td>
 							</tr>

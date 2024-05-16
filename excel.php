@@ -110,7 +110,7 @@
                     <td><?php echo $isi['id_barang'];?></td>
                     <td><?php echo $isi['nama_regional'];?></td>
                     <td><?php echo $isi['nama_cabang'];?></td>
-                    <td><?php echo $isi['PIC'];?></td>
+                    <td><?php echo $isi['pic'];?></td>
                     <td><?php echo $isi['email'];?></td>
                     <td><?php echo $isi['dept'];?></td>
                     <td><?php echo $isi['kegiatan'];?></td>

@@ -9,7 +9,7 @@
             <div class="copyright text-center my-auto">
                 <span>
                     <?php echo date('Y');?> - Sistem Keluar Masuk Barang 
-                    BY <b><a href="" target="_blank">PAV</a></b>
+                    BY <b><a href="" target="_blank">Promotion and Activation</a></b>
                 </span>
             </div>
         </div>

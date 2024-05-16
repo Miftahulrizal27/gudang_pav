@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>POS </title>
+    <title>POS Merchendise PAV </title>
     <link rel="icon" type="image/png" href="assets/img//user/jne.png">
     <!-- Custom fonts for this template-->
     <link href="sb-admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

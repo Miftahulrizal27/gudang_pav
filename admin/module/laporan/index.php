@@ -182,7 +182,7 @@
 						<thead>
 							<tr style="background:#DFF0D8;color:#333;">
 								<th> No</th>
-								<th> ID Barang</th>
+								<th> ID cabang</th>
 								<th> Regional</th>
 								<th> cabang</th>
 								<th> PIC</th>
@@ -237,10 +237,25 @@
 							<tr>
 								<td><?php echo $no;?></td>
 								<td><?php echo $isi['id_barang'];?></td>
-								<td><?php echo $isi['nama_barang'];?></td>
+								<td><?php echo $isi['nama_regional'];?></td>
+								<td><?php echo $isi['nama_cabang'];?></td>
+								<td><?php echo $isi['pic'];?></td>
+								<td><?php echo $isi['email'];?></td>
+								<td><?php echo $isi['departement'];?></td>
+								<td><?php echo $isi['kegiatan'];?></td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
+								<td><?php echo $isi['jumlah'];?> </td>
 								<td><?php echo $isi['jumlah'];?> </td>
 								<td>Rp.<?php echo number_format($isi['harga_beli']* $isi['jumlah']);?>,-</td>
 								<td>Rp.<?php echo number_format($isi['total']);?>,-</td>
+								<td>
 								<a href="index.php?page=barang/details&barang=<?php echo $isi['id_barang'];?>"><button
                                         class="btn btn-primary btn-xs">Details</button></a>
 
@@ -249,6 +264,7 @@
                                 <a href="fungsi/hapus/hapus.php?barang=hapus&id=<?php echo $isi['id_barang'];?>"
                                     onclick="javascript:return confirm('Hapus Data barang ?');"><button
                                         class="btn btn-danger btn-xs">Hapus</button></a>
+								</td>
 								<td><?php echo $isi['nm_member'];?></td>
 								<td><?php echo $isi['tanggal_input'];?></td>
 							</tr>
