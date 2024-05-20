@@ -123,6 +123,7 @@
                     <td><?php echo $isi['jumlah'];?> </td>
                     <td><?php echo $isi['jumlah'];?> </td>
                     <td><?php echo $isi['jumlah'];?> </td>
+                    <td><?php echo $isi['jumlah'];?> </td>
                     <td>Rp.<?php echo number_format($isi['harga_beli']* $isi['jumlah']);?>,-</td>
                     <td>Rp.<?php echo number_format($isi['total']);?>,-</td>
                     <td><?php echo $isi['nm_member'];?></td>
@@ -138,6 +139,7 @@
                     <td>-</td>
                     <td>-</td>
                     <td><b>Total Terjual</b></td>
+                    <td><b><?php echo $jumlah;?></b></td>
                     <td><b><?php echo $jumlah;?></b></td>
                     <td><b><?php echo $jumlah;?></b></td>
                     <td><b><?php echo $jumlah;?></b></td>

@@ -139,7 +139,7 @@
                                 <?php }?>
                         </tr>
                         <?php 
-							$no++; 
+							$no++;  
 							$totalStok += $isi['stok'];
 						}
 					?>
