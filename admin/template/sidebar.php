@@ -37,9 +37,9 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <!-- <h6 class="collapse-header">Custom Components:</h6> -->
-                <a class="collapse-item" href="index.php?page=barang">Barang</a>
-                <a class="collapse-item" href="index.php?page=regional">Regional</a>
-                <a class="collapse-item" href="index.php?page=kategori">Cabang</a>
+                <a class="collapse-item" href="index.php?page=barang">Data Barang</a>
+                <a class="collapse-item" href="index.php?page=regional">Data Regional</a>
+                <a class="collapse-item" href="index.php?page=kategori">Data Cabang</a>
                 <!-- <a class="collapse-item" href="index.php?page=user">User</a> -->
             </div>
         </div>
@@ -49,7 +49,7 @@
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
             aria-controls="collapse3">
             <i class="fas fa-fw fa-desktop"></i>
-            <span>Transaksi</span>
+            <span>Transaksi dan Laporan</span>
         </a>
         <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">

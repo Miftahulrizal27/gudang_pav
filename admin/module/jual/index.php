@@ -74,16 +74,16 @@
 									<td> Alamat Email</td>
 									<td> Departement</td>
 									<td> Kegiatan/Event</td>
-									<td style="width:10%;"> PaperBag<br>Kecil</td>
-									<td style="width:10%;"> PaperBag<br>Sedang</td>
-									<td style="width:10%;"> PaperBag<br>Besar</td>
-									<td style="width:10%;"> Notes</td>
-									<td style="width:10%;"> Pulpen</td>
-									<td style="width:10%;"> Stiker Kepala<br>Joni</td>
-									<td style="width:10%;"> Gantungan Kunci</td>
-									<td style="width:10%;"> Agenda Joni</td>
-									<td style="width:10%;"> Tumbler</td>
-									<td style="width:20%;"> Total</td>
+									<td> PaperBag<br>Kecil</td>
+									<td> PaperBag<br>Sedang</td>
+									<td> PaperBag<br>Besar</td>
+									<td> Notes</td>
+									<td> Pulpen</td>
+									<td> Stiker Kepala<br>Joni</td>
+									<td> Gantungan Kunci</td>
+									<td> Agenda Joni</td>
+									<td> Tumbler</td>
+									<td> Total</td>
 									<td> PIC Pusat</td>
 									<td> Aksi</td>
 								</tr>
@@ -264,7 +264,7 @@
 									<a href="print.php?nm_member=<?php echo $_SESSION['admin']['nm_member'];?>
 									&bayar=<?php echo $bayar;?>&kembali=<?php echo $hitung;?>" target="_blank">
 									<button class="btn btn-secondary">
-										<i class="fa fa-print"></i> Print Untuk Bukti Keluar
+										<i class="fa fa-print"></i> Print Bukti Barang Keluar
 									</button></a>
 								</td>
 							</tr>

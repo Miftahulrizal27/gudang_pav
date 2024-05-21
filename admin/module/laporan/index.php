@@ -189,20 +189,20 @@
 								<th> Alamat Email</th>
 								<th> Departement</th>
 								<th> Kegiatan/Evenet</th>
-								<th>PaperBag<br>Kecil</th>
-								<th>PaperBag<br>Sedang</th>
-								<th>PaperBag<br>Besar</th>
-								<th>Notes</th>
-								<th>Pulpen</th>
-								<th>Stiker kepala<br>Joni</th>
-								<th>Gantungan kunci</th>
-								<th>Agenda Joni</th>
-								<th>Tumbler</th>
-								<th style="width:10%;"> Jumlah</th>
-								<th style="width:10%;"> Modal</th>
-								<th style="width:10%;"> Total</th>
-								<th>Aksi</th>
-								<th> Kasir</th>
+								<th> PaperBag<br>Kecil</th>
+								<th> PaperBag<br>Sedang</th>
+								<th> PaperBag<br>Besar</th>
+								<th> Notes</th>
+								<th> Pulpen</th>
+								<th> Stiker kepala<br>Joni</th>
+								<th> Gantungan kunci</th>
+								<th> Agenda Joni</th>
+								<th> Tumbler</th>
+								<th> Jumlah</th>
+								<th> Modal</th>
+								<th> Total</th>
+								<th> Aksi</th>
+								<th> Admin</th>
 								<th> Tanggal Input</th>
 							</tr>
 						</thead>

@@ -23,7 +23,7 @@
 	<div class="table-responsive">
 		<table class="table table-striped">
 			<tr>
-				<td>ID Barang</td>
+				<td>ID Cabang</td>
 				<td><?php echo $hasil['id_barang'];?></td>
 			</tr>
 			<tr>

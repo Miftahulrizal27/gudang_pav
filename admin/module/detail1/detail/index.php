@@ -1,67 +1,69 @@
 <?php 
-	$id = $_GET['barang'];
-	$hasil = $lihat -> barang_edit($id);
+    $id = $_GET['barang'];
+    $hasil = $lihat->barang_edit($id);
 ?>
+
 <a href="index.php?page=detail1" class="btn btn-primary mb-3"><i class="fa fa-angle-left"></i> Balik </a>
-<h4>Details Barang</h4>
+<h4>Edit Details Barang</h4>
+
 <?php if(isset($_GET['success-stok'])){?>
 <div class="alert alert-success">
-	<p>Tambah Stok Berhasil !</p>
+    <p>Tambah Stok Berhasil !</p>
 </div>
 <?php }?>
 <?php if(isset($_GET['success'])){?>
 <div class="alert alert-success">
-	<p>Tambah Data Berhasil !</p>
+    <p>Tambah Data Berhasil !</p>
 </div>
 <?php }?>
 <?php if(isset($_GET['remove'])){?>
 <div class="alert alert-danger">
-	<p>Hapus Data Berhasil !</p>
+    <p>Hapus Data Berhasil !</p>
 </div>
 <?php }?>
+
 <div class="card card-body">
-	<div class="table-responsive">
-		<table class="table table-striped">
-			<tr>
-				<td>ID Barang</td>
-				<td><?php echo $hasil['id_barang'];?></td>
-			</tr>
-			<tr>
-				<td>Regional</td>
-				<td><?php echo $hasil['nama_kategori'];?></td>
-			</tr>
-			<tr>
-				<td>Cabang</td>
-				<td><?php echo $hasil['nama_kategori'];?></td>
-			</tr>
-			<tr>
-				<td>Periode</td>
-				<td><?php echo $hasil['pic'];?></td>
-			</tr>
-			<tr>
-				<td>Kegiatan atau Event</td>
-				<td><?php echo $hasil['email'];?></td>
-			</tr>
-			<tr>
-				<td>Nama Barang</td>
-				<td><?php echo $hasil['dept'];?></td>
-			</tr>
-			<tr>
-				<td>Masuk</td>
-				<td><?php echo $hasil['stok1'];?></td>
-			</tr>
-			<tr>
-				<td>keluar</td>
-				<td><?php echo $hasil['stok2'];?></td>
-			</tr>
-			<tr>
-				<td>Sisa Stok</td>
-				<td><?php echo $hasil['stok3'];?></td>
-			</tr>
-			<tr>
-				<td>Tanggal Update</td>
-				<td><?php echo $hasil['tgl_update'];?></td>
-			</tr>
-		</table>
-	</div>
+    <form action="fungsi/edit/edit.php?barang=edit" method="POST">
+        <div class="form-group">
+            <label for="id_barang">ID Cabang</label>
+            <input type="text" class="form-control" id="id_barang" name="id_barang" value="<?php echo $hasil['id_barang'];?>" readonly>
+        </div>
+        <div class="form-group">
+            <label for="regional">Regional</label>
+            <input type="text" class="form-control" id="regional" name="regional" value="<?php echo $hasil['nama_kategori'];?>">
+        </div>
+        <div class="form-group">
+            <label for="cabang">Cabang</label>
+            <input type="text" class="form-control" id="cabang" name="cabang" value="<?php echo $hasil['nama_kategori'];?>">
+        </div>
+        <div class="form-group">
+            <label for="periode">Periode</label>
+            <input type="text" class="form-control" id="periode" name="periode" value="<?php echo $hasil['pic'];?>">
+        </div>
+        <div class="form-group">
+            <label for="kegiatan">Kegiatan atau Event</label>
+            <input type="text" class="form-control" id="kegiatan" name="kegiatan" value="<?php echo $hasil['email'];?>">
+        </div>
+        <div class="form-group">
+            <label for="nama_barang">Nama Barang</label>
+            <input type="text" class="form-control" id="nama_barang" name="nama_barang" value="<?php echo $hasil['dept'];?>">
+        </div>
+        <div class="form-group">
+            <label for="masuk">Masuk</label>
+            <input type="number" class="form-control" id="masuk" name="masuk" value="<?php echo $hasil['stok1'];?>">
+        </div>
+        <div class="form-group">
+            <label for="keluar">Keluar</label>
+            <input type="number" class="form-control" id="keluar" name="keluar" value="<?php echo $hasil['stok2'];?>">
+        </div>
+        <div class="form-group">
+            <label for="sisa_stok">Sisa Stok</label>
+            <input type="number" class="form-control" id="sisa_stok" name="sisa_stok" value="<?php echo $hasil['stok3'];?>">
+        </div>
+        <div class="form-group">
+            <label for="tgl_update">Tanggal Update</label>
+            <input type="date" class="form-control" id="tgl_update" name="tgl_update" value="<?php echo $hasil['tgl_update'];?>">
+        </div>
+        <button type="submit" class="btn btn-success">Update</button>
+    </form>
 </div>

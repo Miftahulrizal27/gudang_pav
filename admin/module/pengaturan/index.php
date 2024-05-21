@@ -1,4 +1,4 @@
-<h4>Tentang PAV</h4>
+<h4>Tentang Departement Promotion and Activation</h4>
 <br>
 <?php if(isset($_GET['success'])){?>
 <div class="alert alert-success">

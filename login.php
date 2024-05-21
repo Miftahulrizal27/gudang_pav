@@ -54,7 +54,7 @@
                         <!-- Nested Row within Card Body -->
 						<div class="p-5">
 							<div class="text-center">
-								<h4 class="h4 text-gray-900 mb-4"><b>Login <br>POS Merchendise PAV</b></h4>
+								<h4 class="h4 text-gray-900 mb-4"><b>Login <br>Merchendise PAV</b></h4>
 							</div>
 							<form class="form-login" method="POST">
 								<div class="form-group">
@@ -67,7 +67,7 @@
 								</div>
 								<button class="btn btn-primary btn-block" name="proses" type="submit"><i
 										class="fa fa-lock"></i>
-									SIGN IN</button>
+									LOGIN</button>
 							</form>
 							<!-- <hr>
 							<div class="text-center">

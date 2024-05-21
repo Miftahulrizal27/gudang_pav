@@ -25,7 +25,7 @@
 		<table class="table table-striped">
 			<form action="fungsi/edit/edit.php?barang=edit" method="POST">
 				<tr>
-					<td>ID Barang</td>
+					<td>ID Cabang</td>
 					<td><input type="text" readonly="readonly" class="form-control" value="<?php echo $hasil['id_barang'];?>"
 							name="id"></td>
 				</tr>
@@ -34,7 +34,7 @@
 					<td>
 						<select name="regional" class="form-control">
 							<option value="<?php echo $hasil['id_regional'];?>"><?php echo $hasil['nama_regional'];?></option>
-							<option value="#">Pilih Kategori</option>
+							<option value="#">Pilih Regional</option>
 							<?php  $kat = $lihat -> regional(); foreach($kat as $isi){ 	?>
 							<option value="<?php echo $isi['id_regional'];?>"><?php echo $isi['nama_regioanal'];?></option>
 							<?php }?>
@@ -42,11 +42,11 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Kategori</td>
+					<td>Cabang</td>
 					<td>
 						<select name="kategori" class="form-control">
 							<option value="<?php echo $hasil['id_kategori'];?>"><?php echo $hasil['nama_kategori'];?></option>
-							<option value="#">Pilih Kategori</option>
+							<option value="#">Pilih Cabang</option>
 							<?php  $kat = $lihat -> kategori(); foreach($kat as $isi){ 	?>
 							<option value="<?php echo $isi['id_kategori'];?>"><?php echo $isi['nama_kategori'];?></option>
 							<?php }?>

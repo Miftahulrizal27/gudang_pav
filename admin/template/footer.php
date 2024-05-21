@@ -8,7 +8,7 @@
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
                 <span>
-                    <?php echo date('Y');?> - Sistem Keluar Masuk Barang 
+                    <?php echo date('Y');?> - Sistem Keluar Masuk Barang (Merchendise)
                     BY <b><a href="" target="_blank">Promotion and Activation</a></b>
                 </span>
             </div>

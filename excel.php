@@ -35,7 +35,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Barang Merchendise cabang-cabang JNE</title>
 </head>
 <body>
 	<!-- view barang -->	
@@ -61,19 +61,19 @@
                     <th> Alamat Email</th>
                     <th> departement</th>
                     <th> Kegiatan/Event</th>
-                    <th>PaperBag<br>Kecil</th>
-                    <th>PaperBag<br>Sedang</th>
-                    <th>PaperBag<br>Besar</th>
-                    <th>Notes</th>
-                    <th>Pulpen</th>
-                    <th>Stiker kepala<br>Joni</th>
-                    <th>Gantungan kunci</th>
-                    <th>Agenda Joni</th>
-                    <th>Tumbler</th>
+                    <th> PaperBag<br>Kecil</th>
+                    <th> PaperBag<br>Sedang</th>
+                    <th> PaperBag<br>Besar</th>
+                    <th> Notes</th>
+                    <th> Pulpen</th>
+                    <th> Stiker kepala<br>Joni</th>
+                    <th> Gantungan kunci</th>
+                    <th> Agenda Joni</th>
+                    <th> Tumbler</th>
                     <th style="width:10%;"> Jumlah</th>
                     <th style="width:10%;"> Modal</th>
                     <th style="width:10%;"> Total</th>
-                    <th> Kasir</th>
+                    <th> Admin</th>
                     <th> Tanggal Input</th>
                 </tr>
             </thead>

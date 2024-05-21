@@ -132,7 +132,7 @@
                                 <?php }else{?>
 
                                     <a href="index.php?page=detail7/detail&detail=<?php echo $isi['id_barang'];?>"><button
-                                        class="btn btn-warning btn-xs">Detail</button></a>
+                                        class="btn btn-warning btn-xs">Edit</button></a>
                                 <a href="fungsi/hapus/hapus.php?barang=hapus&id=<?php echo $isi['id_barang'];?>"
                                     onclick="javascript:return confirm('Hapus Data barang ?');"><button
                                         class="btn btn-danger btn-xs">Hapus</button></a>

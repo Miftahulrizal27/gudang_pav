@@ -14,6 +14,7 @@
 	<head>
 		<title>print</title>
 		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="icon" type="image/png" href="assets/img//user/jne.png">
 	</head>
 	<body>
 		<script>window.print();</script>
