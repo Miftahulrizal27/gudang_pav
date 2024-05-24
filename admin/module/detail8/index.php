@@ -31,11 +31,10 @@
 			}
 		?>
         <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-primary btn-md mr-2" data-toggle="modal" data-target="#myModal">
-            <i class="fa fa-plus"></i> Insert Data</button>
-            <br>
-            <br>
-            <a href="index.php?page=detail" class="btn btn-success btn-md">
+        <br>
+        <br>
+        <br>
+        <a href="index.php?page=detail" class="btn btn-success btn-md">
             <i class="fa fa-refresh"></i> Rekap</a>
         <a href="index.php?page=detail1" class="btn btn-success btn-md">
             <i class="fa fa-refresh"></i> Paper Bag K</a>
@@ -150,84 +149,3 @@
         <!-- end view barang -->
         <!-- tambah barang MODALS-->
         <!-- Modal -->
-
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content" style=" border-radius:0px;">
-                    <div class="modal-header" style="background:#285c64;color:#fff;">
-                        <h5 class="modal-title"><i class="fa fa-plus"></i> Tambah Barang</h5>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <form action="fungsi/tambah/tambah.php?barang=tambah" method="POST">
-                        <div class="modal-body">
-                            <table class="table table-striped bordered">
-                                <?php
-									$format = $lihat -> barang_id();
-								?>
-                                <tr>
-                                    <td>Tanggal Input</td>
-                                    <td><input type="text" required readonly="readonly" class="form-control"
-                                            value="<?php echo  date("j F Y, G:i");?>" name="tgl"></td>
-                                </tr>
-                                <tr>
-                                    <td>Regional</td>
-                                    <td>
-                                        <select name="regional" class="form-control" required>
-                                            <option value="#">Pilih Regional</option>
-                                            <?php  $kat = $lihat -> regional(); foreach($kat as $isi){ 	?>
-                                            <option value="<?php echo $isi['id_regional'];?>">
-                                                <?php echo $isi['nama_regional'];?></option>
-                                            <?php }?>
-                                        </select>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Cabang</td>
-                                    <td>
-                                        <select name="kategori" class="form-control" required>
-                                            <option value="#">Pilih Cabang</option>
-                                            <?php  $kat = $lihat -> kategori(); foreach($kat as $isi){ 	?>
-                                            <option value="<?php echo $isi['id_kategori'];?>">
-                                                <?php echo $isi['nama_kategori'];?></option>
-                                            <?php }?>
-                                        </select>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Periode</td>
-                                    <td><input type="text" placeholder="Periode" required class="form-control"
-                                            name="periode"></td>
-                                </tr>
-                                <tr>
-                                    <td>Kegiatan atau Event</td>
-                                    <td><input type="text" placeholder="kegiatan" required class="form-control"
-                                            name="kegiatan"></td>
-                                </tr>
-                                <tr>
-                                    <td>Masuk</td>
-                                    <td><input type="number" placeholder="Masuk" required class="form-control"
-                                            name="Masuk"></td>
-                                </tr>
-                                <tr>
-                                    <td>keluar</td>
-                                    <td><input type="number" required Placeholder="Keluar" class="form-control"
-                                            name="keluar"></td>
-                                </tr>
-                                <tr>
-                                    <td>Sisa Stok</td>
-                                    <td><input type="number" required Placeholder="Sisa Stok" class="form-control"
-                                            name="sisa"></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="submit" class="btn btn-primary"><i class="fa fa-plus"></i> Insert
-                                Data</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </div>

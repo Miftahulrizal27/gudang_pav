@@ -205,6 +205,18 @@
                                             name="kegiatan"></td>
                                 </tr>
                                 <tr>
+                                    <td>Nama Barang</td>
+                                    <td>
+                                        <select name="nama_barang" class="form-control" required>
+                                            <option value="#">Pilih Nama barang</option>
+                                            <?php  $kat = $lihat -> kategori(); foreach($kat as $isi){ 	?>
+                                            <option value="<?php echo $isi['id_barang'];?>">
+                                                <?php echo $isi['nama_barang'];?></option>
+                                            <?php }?>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td>Masuk</td>
                                     <td><input type="number" placeholder="Masuk" required class="form-control"
                                             name="Masuk"></td>

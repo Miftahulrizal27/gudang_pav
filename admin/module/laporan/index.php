@@ -201,7 +201,6 @@
 								<th> Jumlah</th>
 								<th> Modal</th>
 								<th> Total</th>
-								<th> Aksi</th>
 								<th> Admin</th>
 								<th> Tanggal Input</th>
 							</tr>
@@ -255,16 +254,6 @@
 								<td><?php echo $isi['jumlah'];?> </td>
 								<td>Rp.<?php echo number_format($isi['harga_beli']* $isi['jumlah']);?>,-</td>
 								<td>Rp.<?php echo number_format($isi['total']);?>,-</td>
-								<td>
-								<a href="index.php?page=barang/details&barang=<?php echo $isi['id_barang'];?>"><button
-                                        class="btn btn-primary btn-xs">Details</button></a>
-
-                                <a href="index.php?page=barang/edit&barang=<?php echo $isi['id_barang'];?>"><button
-                                        class="btn btn-warning btn-xs">Edit</button></a>
-                                <a href="fungsi/hapus/hapus.php?barang=hapus&id=<?php echo $isi['id_barang'];?>"
-                                    onclick="javascript:return confirm('Hapus Data barang ?');"><button
-                                        class="btn btn-danger btn-xs">Hapus</button></a>
-								</td>
 								<td><?php echo $isi['nm_member'];?></td>
 								<td><?php echo $isi['tanggal_input'];?></td>
 							</tr>
