@@ -73,8 +73,41 @@
         </div>
         <!--/grey-card -->
     </div><!-- /col-md-3-->
+    <div class="col-md-3 mb-3">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h6 class="pt-2"><i class="fas fa-upload"></i> Data Nama Barang</h6>
+            </div>
+            <div class="card-body">
+                <center>
+                    <h1><?php echo number_format($hasil_barang['nama_barang']);?></h1>
+                </center>
+            </div>
+            <div class="card-footer">
+                <a href='index.php?page=nama_barang'>Tabel
+                    Nama Barang<i class='fa fa-angle-double-right'></i></a>
+            </div>
+        </div>
+        <!--/grey-card -->
+    </div><!-- /col-md-3--><div class="col-md-3 mb-3">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h6 class="pt-2"><i class="fas fa-upload"></i> Data Barang Masuk</h6>
+            </div>
+            <div class="card-body">
+                <center>
+                    <h1><?php echo number_format($jual['stok']);?></h1>
+                </center>
+            </div>
+            <div class="card-footer">
+                <a href='index.php?page=laporan'>Tabel
+                    laporan <i class='fa fa-angle-double-right'></i></a>
+            </div>
+        </div>
+        <!--/grey-card -->
+    </div><!-- /col-md-3-->
        <!-- STATUS cardS -->
-       <div class="col-md-3 mb-3">
+    <div class="col-md-3 mb-3">
         <div class="card">
             <div class="card-header bg-primary text-white">
                 <h6 class="pt-2"><i class="fas fa-upload"></i> Data Barang Keluar</h6>
@@ -85,7 +118,7 @@
                 </center>
             </div>
             <div class="card-footer">
-                <a href='index.php?page=laporan'>Tabel
+                <a href='index.php?page=jual'>Tabel
                     laporan <i class='fa fa-angle-double-right'></i></a>
             </div>
         </div>

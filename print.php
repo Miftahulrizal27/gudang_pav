@@ -30,12 +30,12 @@
 					</center>
 					<table class="table table-bordered" style="width:100%;">
 						<tr>
-							<th> No|</th>
-							<th> Regional|</th>
-							<th> Cabang|</th>
-							<th> PIC|</th> 
-							<th> departement|</th>
-							<th> Kegiatan/Event|</th>
+							<th>|No|</th>
+							<th>Regional|</th>
+							<th>Cabang|</th>
+							<th>PIC|</th> 
+							<th>departement|</th>
+							<th>Kegiatan/Event|</th>
 							<th>PaperBag<br>Kecil|</th>
 							<th>PaperBag<br>Sedang|</th>
 							<th>PaperBag<br>Besar|</th>

@@ -32,7 +32,7 @@
 		?>
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-primary btn-md mr-2" data-toggle="modal" data-target="#myModal">
-            <i class="fa fa-plus"></i> Insert Data</button>
+            <i class="fa fa-plus"></i> Tambah Barang</button>
             <br>
             <br>
         <a href="index.php?page=detail" class="btn btn-success btn-md">
@@ -234,7 +234,7 @@
                             </table>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-primary"><i class="fa fa-plus"></i> Insert
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah
                                 Data</button>
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>

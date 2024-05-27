@@ -62,7 +62,7 @@
                             <th>Agenda_Joni</th>
                             <th>Tumbler</th>
                             <th>Stok</th>
-                            <th>HFarga Beli</th>
+                            <th>Harga Beli</th>
                             <th>Harga Jual</th>
                             <th>Satuan</th>
                             <th>Aksi</th>

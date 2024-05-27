@@ -70,9 +70,9 @@
                     <th> Gantungan kunci</th>
                     <th> Agenda Joni</th>
                     <th> Tumbler</th>
-                    <th style="width:10%;"> Jumlah</th>
-                    <th style="width:10%;"> Modal</th>
-                    <th style="width:10%;"> Total</th>
+                    <th> Jumlah</th>
+                    <th> Modal</th>
+                    <th> Total</th>
                     <th> Admin</th>
                     <th> Tanggal Input</th>
                 </tr>
