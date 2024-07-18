@@ -84,16 +84,18 @@ $hasil = $lihat->member_edit($id);
 						UPDATE barang
 						SET 
 						";
-							for ($i = 1; $i <= 9; $i++) {
+							$i = 1;
+							foreach ($new_data as $key => $value) {
 								if ($i < 9) {
-									$query .= "stok" . $i . " = " . $new_data['stok' . $i] . ",";
+									$query .= $key . " = " . $value . ",";
 								} else {
-									$query .= "stok" . $i . " = " . $new_data['stok' . $i];
+									$query .= $key . " = " . $value;
 								}
+								$i++;
 							}
 							$query .= " WHERE id_barang = '" . $id_barang . "'";
 							$config->prepare($query)->execute();
-							$query = "DELETE FROM penjualan WHERE id_barang = '".$id_barang."' AND id_member = '". $_SESSION['admin']['id_member'] ."';";
+							$query = "DELETE FROM penjualan WHERE id_barang = '" . $id_barang . "' AND id_member = '" . $_SESSION['admin']['id_member'] . "';";
 							$config->prepare($query)->execute();
 						}
 
